@@ -1,6 +1,7 @@
-#include "User.hpp"
-#include <sstream>
-#include <stdexcept> // For runtime_error
+#include "User.hpp"             // Include the header file for the User class definitions
+#include <sstream>              // For stringstream (used to parse comma-separated strings)
+#include <stdexcept>            // Enables throwing runtime_error exceptions
+
 
 User::User() {}
 
