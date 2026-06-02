@@ -1,5 +1,5 @@
 #include "Item.hpp"
-#include <stdexcept> // For runtime_error
+#include <stdexcept> // For runtime_error just comented
 
 Item::Item(int id, std::string title, int count) : id(id), title(title), availableCount(count) {
     if (id <= 0 || title.empty() || count < 0) {
